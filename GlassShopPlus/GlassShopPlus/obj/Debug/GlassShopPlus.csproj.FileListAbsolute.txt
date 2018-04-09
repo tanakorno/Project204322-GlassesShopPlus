@@ -1,0 +1,15 @@
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\bin\Debug\GlassShopPlus.exe
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\bin\Debug\GlassShopPlus.pdb
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.exe
+c:\users\user\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.pdb
+C:\Users\User\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\bin\Debug\MySql.Data.dll
+C:\Users\User\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.FormMenu.resources
+C:\Users\User\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.AddItem.resources
+C:\Users\User\documents\visual studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.Stock.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.EditItem.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.QtyItem.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.Counter.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\GlassShopPlus\GlassShopPlus\obj\Debug\GlassShopPlus.History.resources

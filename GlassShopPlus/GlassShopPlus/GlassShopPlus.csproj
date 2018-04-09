@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{417D87F1-8417-445A-9393-F444F1E2A6F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GlassShopPlus</RootNamespace>
+    <AssemblyName>GlassShopPlus</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.3.9\Assemblies\v2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\Counter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Counter.Designer.cs">
+      <DependentUpon>Counter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Contact_Len.cs" />
+    <Compile Include="Entity\Frame.cs" />
+    <Compile Include="Entity\Product.cs" />
+    <Compile Include="Form\QtyItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\QtyItem.Designer.cs">
+      <DependentUpon>QtyItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AddItem.Designer.cs">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Len.cs" />
+    <Compile Include="Entity\Function.cs" />
+    <Compile Include="Form\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\EditItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\EditItem.Designer.cs">
+      <DependentUpon>EditItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form\Counter.resx">
+      <DependentUpon>Counter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\QtyItem.resx">
+      <DependentUpon>QtyItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\EditItem.resx">
+      <DependentUpon>EditItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AddItem.resx">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_close%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_txtleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_1Btn_shop%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_3Btn_product%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_4Btn_tax_invoice%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_5Btn_debit_invoice%402x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
